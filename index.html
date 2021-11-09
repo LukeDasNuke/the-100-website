@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>The 100 - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- Overlay menu för mobiler m.m. -->
+<div id="nav-overlay" class="overlay">
+    <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-navbar">
+        <a class="active">Home</a>
+        <a href="actors">Actors</a>
+        <a href="gallery">Gallery</a>
+        <a href="https://www.netflix.com/title/70283264">Watch now</a>
+    </div>
+</div>
+
+<!-- Hero -->
+<section id="hero-section">
+    <img id="hero" src="img/hero.png">
+    <div id="hero-gradient-overlay"></div>
+    <div id="hero-text">
+        <h1>The 100</h1>
+        <p>A very epic series</p>
+    </div>
+</section>
+
+<!-- Navbar -->
+<nav>
+    <a href="#" id="nav-logo">The 100</a>
+
+    <!-- Alla länkar -->
+    <ul>
+        <li><a class="active">Home</a></li>
+        <li><a href="actors">Actors</a></li>
+        <li><a href="gallery">Gallery</a></li>
+        <li><a href="https://www.netflix.com/title/70283264">Watch now</a></li>
+    </ul>
+
+    <!-- Hamburgarmeny -->
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
+</nav>
+
+<!-- Trailer sektion-->
+<section id="trailer-section">
+    <h2>Watch the trailer!</h2>
+
+    <!-- Trailer från youtube-->
+    <div id="trailer-wrapper">
+        <iframe class="trailer load-hidden" width="560" height="315"
+                src="https://www.youtube.com/embed/aDrsItJ_HU4"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+<!-- Säsong sektion -->
+<section id="seasons-section">
+    <h2>The Seasons</h2>
+
+    <!-- Bild på alla säsonger med text -->
+    <div id="season-gallery">
+        <div class="season-item">
+            <img src="img/season_1.png">
+            <div class="season-item-overlay"><p>Season 1</p></div>
+        </div>
+
+        <div class="season-item">
+            <img src="img/season_2.png">
+            <div class="season-item-overlay"><p>Season 2</p></div>
+        </div>
+
+        <div class="season-item">
+            <img src="img/season_3.png">
+            <div class="season-item-overlay"><p>Season 3</p></div>
+        </div>
+
+        <div class="season-item">
+            <img src="img/season_4.png">
+            <div class="season-item-overlay"><p>Season 4</p></div>
+        </div>
+
+        <div class="season-item">
+            <img src="img/season_5.png">
+            <div class="season-item-overlay"><p>Season 5</p></div>
+        </div>
+
+        <div class="season-item">
+            <img src="img/season_6.png">
+            <div class="season-item-overlay"><p>Season 6</p></div>
+        </div>
+
+        <div class="season-item">
+            <img src="img/season_7.png">
+            <div class="season-item-overlay"><p>Season 7</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Om serien sektion -->
+<section id="about-section">
+    <h2>What's the series about?</h2>
+
+    <div class="info-left">
+        <div class="info-img"><img src="img/ark.png"></div>
+        <div class="info-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat est velit egestas dui id ornare arcu odio. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Sed adipiscing diam donec adipiscing tristique risus nec. Donec adipiscing tristique risus nec. Malesuada fames ac turpis egestas sed tempus urna et. At imperdiet dui accumsan sit. Duis convallis convallis tellus id. Nascetur ridiculus mus mauris vitae ultricies leo. Vitae congue eu consequat ac felis donec et odio. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare.
+        </div>
+    </div>
+
+    <div class="info-right">
+        <div class="info-img"><img src="img/grounders.png"></div>
+        <div class="info-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat est velit egestas dui id ornare arcu odio. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Sed adipiscing diam donec adipiscing tristique risus nec. Donec adipiscing tristique risus nec. Malesuada fames ac turpis egestas sed tempus urna et. At imperdiet dui accumsan sit. Duis convallis convallis tellus id. Nascetur ridiculus mus mauris vitae ultricies leo. Vitae congue eu consequat ac felis donec et odio. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare.
+        </div>
+    </div>
+
+    <div class="info-left">
+        <div class="info-img"><img src="img/azgeda.png"></div>
+        <div class="info-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat est velit egestas dui id ornare arcu odio. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Sed adipiscing diam donec adipiscing tristique risus nec. Donec adipiscing tristique risus nec. Malesuada fames ac turpis egestas sed tempus urna et. At imperdiet dui accumsan sit. Duis convallis convallis tellus id. Nascetur ridiculus mus mauris vitae ultricies leo. Vitae congue eu consequat ac felis donec et odio. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare.
+       </div>
+    </div>
+</section>
+
+<!-- Footer med länkar -->
+<footer>
+    <a href="actors">Actors</a>
+    <p class="separator">|</p>
+    <a href="gallery">Gallery</a>
+    <p class="separator">|</p>
+    <a href="https://www.netflix.com/title/70283264">Watch now</a>
+</footer>
+
+
+<!-- Overlay navbar skript -->
+<script>
+    function openNav() {document.getElementById("nav-overlay").style.width = "100%";}
+    function closeNav() {document.getElementById("nav-overlay").style.width = "0%";}
+</script>
+
+<!-- Animationsskript -->
+<script src="animation.js"></script>
+</body>
+</html>

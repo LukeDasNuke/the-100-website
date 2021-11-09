@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Fyra kolumner */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 5px;
+}
+
+/* Placera bilderna rätt */
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Anpassa galleriet för smalare skärmar */
+
+/* 2 kolumner */
+@media screen and (max-width: 800px) {
+    .column {
+        max-width: 50%;
+        flex: 50%;
+    }
+}
+
+/* 1 kolumn */
+@media screen and (max-width: 600px) {
+    .column {
+        max-width: 100%;
+        flex: 100%;
+    }
+}
+
+/* Ändra footer marginal för att matcha galleriet*/
+footer {
+    margin-top: 12px;
+}

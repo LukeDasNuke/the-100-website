@@ -1,0 +1,25 @@
+/* NAVBAR GRID */
+
+/* CSS grid setup för navbar */
+nav {
+    display: grid;
+    grid-template-columns: 234px auto;
+    grid-auto-rows: 70px;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+/* Minska navbar-höjd på kortare enheter (ändra även ) */
+@media(max-height: 700px){
+    nav{
+        grid-auto-rows: 60px;
+    }
+}
+
+/* Navbar-logga i kolumn 1, länkar i kolumn 2 */
+#nav-logo {
+    grid-column: 1;
+}
+nav ul {
+    grid-column: 2;
+}

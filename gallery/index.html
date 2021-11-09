@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>The 100 - Gallery</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../grid.css">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- Overlay menu för mobiler m.m. -->
+<div id="nav-overlay" class="overlay">
+    <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-navbar">
+        <a href="..">Home</a>
+        <a href="../actors">Actors</a>
+        <a class="active">Gallery</a>
+        <a href="https://www.netflix.com/title/70283264">Watch now</a>
+    </div>
+</div>
+
+<!-- Hero -->
+<section id="hero-section">
+    <img id="hero" src="../img/hero.png">
+    <div id="hero-gradient-overlay"></div>
+    <div id="hero-text">
+        <h1>Gallery</h1>
+        <p>Some really nice pictures</p>
+    </div>
+</section>
+
+<!-- Navbar -->
+<nav>
+    <a href="#" id="nav-logo">The 100</a>
+
+    <!-- Alla länkar -->
+    <ul>
+        <li><a href="..">Home</a></li>
+        <li><a href="../actors">Actors</a></li>
+        <li><a class="active">Gallery</a></li>
+        <li><a href="https://www.netflix.com/title/70283264">Watch now</a></li>
+    </ul>
+
+    <!-- Hamburgarmeny -->
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
+</nav>
+
+
+<!-- Galleri med bilder i 4 kolumner (kolumner kombineras på smalare skärmar) -->
+<section id="gallery">
+<div class="row">
+    <div class="column">
+        <img src="../img/gallery/img1.jpg">
+        <img src="../img/gallery/img2.jpg">
+        <img src="../img/gallery/img3.jpg">
+        <img src="../img/gallery/img4.jpg">
+        <img src="../img/gallery/img5.jpg">
+        <img src="../img/gallery/img6.png">
+    </div>
+    <div class="column">
+        <img src="../img/gallery/img2.jpg">
+        <img src="../img/gallery/img3.jpg">
+        <img src="../img/gallery/img4.jpg">
+        <img src="../img/gallery/img5.jpg">
+        <img src="../img/gallery/img6.png">
+        <img src="../img/gallery/img1.jpg">
+    </div>
+    <div class="column">
+        <img src="../img/gallery/img3.jpg">
+        <img src="../img/gallery/img4.jpg">
+        <img src="../img/gallery/img5.jpg">
+        <img src="../img/gallery/img6.png">
+        <img src="../img/gallery/img1.jpg">
+        <img src="../img/gallery/img2.jpg">
+    </div>
+    <div class="column">
+        <img src="../img/gallery/img4.jpg">
+        <img src="../img/gallery/img5.jpg">
+        <img src="../img/gallery/img6.png">
+        <img src="../img/gallery/img1.jpg">
+        <img src="../img/gallery/img2.jpg">
+        <img src="../img/gallery/img3.jpg">
+    </div>
+</div>
+</section>
+
+<!-- Footer med massa länkar-->
+<footer>
+    <a href="..">Home</a>
+    <p class="separator">|</p>
+    <a href="../actors">Actors</a>
+    <p class="separator">|</p>
+    <a href="https://www.netflix.com/title/70283264">Watch now</a>
+</footer>
+
+
+<!-- Overlay navbar skript -->
+<script>
+    function openNav() {document.getElementById("nav-overlay").style.width = "100%";}
+    function closeNav() {document.getElementById("nav-overlay").style.width = "0%";}
+</script>
+
+<!-- Animationsskript -->
+<script src="../animation.js"></script>
+</body>
+</html>
