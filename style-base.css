@@ -302,7 +302,7 @@ footer {
     margin-top: 40px;
     font-size: 20px;
     font-family: var(--main-fonts);
-    color: #afafaf;
+    color: var(--main-section-font-color);
     width: 100%;
     height: 80px;
     background-color: var(--nav-bg-color);
@@ -310,27 +310,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-footer a{
     text-decoration: none;
-    color: var(--nav-font-color);
-}
-
-footer a:hover{
-    text-decoration: none;
-    color: var(--nav-font-hover-color);
-}
-
-footer a:active{
-    text-decoration: none;
-    color: var(--nav-font-color);
-}
-
-/* Gör så att det är mellanrum mellan länkarna och separatorerna */
-footer .separator{
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 /* Animerade objekt börjar gömda */
