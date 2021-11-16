@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded",
     });
 
 function videoThumb(id) {
-    var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+    var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="video thumbnail">',
         playBtn = '<span></span>';
     return thumb.replace("ID", id) + playBtn;
 }
