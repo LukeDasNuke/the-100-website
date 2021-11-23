@@ -24,7 +24,7 @@ function scrollToTop() {
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
-// VIDEO TEMP
+// YouTube video
 document.addEventListener("DOMContentLoaded",
     function() {
         var a, n,
